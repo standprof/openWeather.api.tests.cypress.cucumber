@@ -4,6 +4,8 @@ API tests for OpenWeather API, wiritten in Cypress, TypeScript and Cucumber
 # Prepare
 After you clone the repository, recover the packages needed: `npm install`.
 
+Also you need to create the file `cypress\fixtures\secrets.json` and add the key `appId`. You can get the value for the key after registering for free on the [OpenWeatherMap web site](https://home.openweathermap.org/users/sign_up).
+
 # Running tests via VS Code
 There are a few ways to run the tests:
 - Run `npx cypress open` to open Cypress. In Cypress, click on a feature file to run it. 
