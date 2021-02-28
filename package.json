@@ -1,0 +1,31 @@
+{
+  "name": "openWeather.api.tests.cypress.cucumber",
+  "version": "1.0.0",
+  "description": "APi tests for OpenWeather API, using Cypress, TypeScript and Cucumber",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^4.1.5",
+    "cypress": "^6.5.0",
+    "cypress-cucumber-preprocessor": "^4.0.1",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.2",
+    "webpack": "^4.46.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/standprof/openWeather.api.tests.cypress.cucumber.git"
+  },
+  "author": "Stan Desyatnikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/standprof/openWeather.api.tests.cypress.cucumber/issues"
+  },
+  "homepage": "https://github.com/standprof/openWeather.api.tests.cypress.cucumber#readme",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
